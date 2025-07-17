@@ -18,14 +18,3 @@ app.post('/', async (req, res) => {
 
 app.listen(process.env.PORT || 3000);
 
-- **Add a `package.json` file:**
-
-{
-  "name": "tv-telegram-webhook",
-  "version": "1.0.0",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.18.2",
-    "axios": "^1.6.8"
-  }
-}
